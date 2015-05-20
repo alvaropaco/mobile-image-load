@@ -1,0 +1,32 @@
+{
+  "name": "mobile-image-load",
+  "version": "1.0.1",
+  "authors": [
+    "alvaropaco <alvaropaco@tokenlab.com.br>"
+  ],
+  "description": "This directive allow to load and render some image through various EXIF orientation flags, in both landscape and portrait orientation.",
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular": "~1.2.0",
+    "Blob": "*",
+    "blueimp-load-image": "1.13.0"
+  },
+  "devDependencies": {
+    "Blob": "*",
+    "blueimp-load-image": "1.13.0"
+  },
+  "main": "image-load-directive.js",
+  "keywords": [
+    "image",
+    "rotation",
+    "mobile",
+    "exif",
+    "orientation",
+    "jpg",
+    "jpge",
+    "images",
+    "upload"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.openhub.net/accounts/alvaropaco"
+}
