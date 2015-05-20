@@ -4,7 +4,7 @@ This directive allow to load and render some image through various EXIF orientat
 ## Installing
 To install the component just:
 ```bash
-bower install mobile-image-load -save
+$ bower install mobile-image-load -save
 ```
 
 Then, include the necessary files into your index.html as the example below:
