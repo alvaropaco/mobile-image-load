@@ -27,6 +27,6 @@ This directive just work with .jpg, .gif or .png images. To correct the image or
 ```
 ## Options
 You can set some options to image render as:
-- Height: set the height of the generated canvas just imputing the `height` attribute to the `<div>`
-- Width:set the width of the generated canvas just imputing the `width` attribute to the `<div>`
-- Class: setting the `class` attribute to the `<div>`, the directive replaces automatically the default style for the canvas canvas.
+- *Height: set the height of the generated canvas just imputing the `height` attribute to the `<div>`
+- *Width: set the width of the generated canvas just imputing the `width` attribute to the `<div>`
+- *Class: setting the `class` attribute to the `<div>`, the directive replaces automatically the default style for the canvas canvas.
