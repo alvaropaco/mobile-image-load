@@ -21,8 +21,8 @@ After that, you can import the new directive using 'image-load' tag.
 
 This directive just work with .jpg, .gif or .png images. To correct the image orientation just add `image-load` to a parent `<div>` in your image. See the example below:
 ```html
-<div data-ng-click="openPhotoUploadModal()" class="div80_80 ng-pristine ng-valid" height="80" width="80" ng-model="photo" image-load>
-    <img src="http://localhost/statics//upload/users/profile/photo/SEJTAZ/image.jpg" class="user photo-img img80_80 ng-pristine ng-valid" ng-model="account.photo">
+<div data-ng-click="openPhotoUploadModal()" class="div80_80" height="80" width="80" ng-model="photo" image-load>
+    <img src="http://localhost/statics//upload/users/profile/photo/SEJTAZ/image.jpg" class="user photo-img img80_80" ng-model="account.photo">
 </div>
 ```
 ## Options
