@@ -1,0 +1,30 @@
+{
+  "name": "mobile-image-load",
+  "version": "1.0.0",
+  "description": "This directive allow to load and render some image through various EXIF orientation flags, in both landscape and portrait orientation.",
+  "main": "image-load-directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScalaSoft/mobile-image-load.git"
+  },
+  "keywords": [
+    "image",
+    "rotation",
+    "mobile",
+    "exif",
+    "orientation",
+    "jpg",
+    "jpge",
+    "images",
+    "upload"
+  ],
+  "author": "Alvaro Paçó <alvaro@scalasoft.com.br> (https://github.com/ScalaSoft)",
+  "license": "    \"rotation\",",
+  "bugs": {
+    "url": "https://github.com/ScalaSoft/mobile-image-load/issues"
+  },
+  "homepage": "https://github.com/ScalaSoft/mobile-image-load"
+}
