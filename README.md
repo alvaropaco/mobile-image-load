@@ -25,3 +25,8 @@ This directive just work with .jpg, .gif or .png images. To correct the image or
     <img src="http://localhost/statics//upload/users/profile/photo/SEJTAZ/image.jpg" class="user photo-img img80_80 ng-pristine ng-valid" ng-model="account.photo">
 </div>
 ```
+## Options
+You can set some options to image render as:
+- Height: set the height of the generated canvas just imputing the `height` attribute to the `<div>`
+- Width:set the width of the generated canvas just imputing the `width` attribute to the `<div>`
+- Class: setting the `class` attribute to the `<div>`, the directive replaces automatically the default style for the canvas canvas.
