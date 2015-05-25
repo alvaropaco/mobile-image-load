@@ -7,7 +7,6 @@
     })
     .directive('imageLoad', function ($compile, $http) {
       var orientation = null;
-      var nodePosition;
 
       var setOrientation = function (code) {
         orientation = code;
@@ -21,7 +20,6 @@
         require: 'ngModel',
         link: function (scope, element, attrs, ctrl) {
           var imageUrl = null;
-          var orientation = null;
           scope.$watch(function () {
               // Return the model associated
               return ctrl.$modelValue;
@@ -31,6 +29,9 @@
               if (ctrl.$modelValue) {
                 imageUrl = ctrl.$modelValue;
               }
+
+              // Resetting orientation
+              setOrientation(null);
 
               // Check if url is defined
               if (imageUrl) {
